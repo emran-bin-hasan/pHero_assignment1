@@ -357,6 +357,11 @@ nav button:hover{
   margin-top: 50px;
   cursor: pointer;
 }
+.skill a:hover{
+  text-decoration: none;
+  color: red;
+}
+
 .skill1 {
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
