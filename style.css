@@ -88,7 +88,7 @@ nav button:hover{
 
 }
 
-/* banner secion end */
+/* banner section end */
 
 /* why dev section start */
 .why-dev {
@@ -225,7 +225,6 @@ nav button:hover{
 
 .inspire-content h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 700;
   line-height: 37px;
@@ -574,10 +573,11 @@ footer {
 }
 footer h4 {
   color: rgb(13, 19, 33);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 23px;
   margin-left: -70px;
+  margin-top: 10px;
 }
 
 .footer-logo {
@@ -587,9 +587,15 @@ margin-right: -32px;
 
 }
 
-.footer-logo img {
+.footer-logo img{
   width:36px ;
   height:36px ;
   
 }
+
+.footer-logo img:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
 /* footer section end */
